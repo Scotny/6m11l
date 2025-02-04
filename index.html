@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <img class="main_img" src="./main.svg" alt="main" />
+    <div class="inputs">
+      <input id="pokemon_search" placeholder="search your pokemon" type="search" class="inputs_" />
+      <input type="number" placeholder="from" id="from" class="from_to" />
+      <input type="number" placeholder="to" id="to" class="from_to" />
+      <select id="all" class="all inputs_">
+        <option value="all" selected>all</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="grass">Grass</option>
+        <option value="electric">Electric</option>
+        <option value="ice">Ice</option>
+        <option value="fighting">Fighting</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Ground</option>
+        <option value="flying">Flying</option>
+        <option value="psychic">Psychic</option>
+        <option value="bug">Bug</option>
+        <option value="rock">Rock</option>
+        <option value="ghost">Ghost</option>
+        <option value="dragon">Dragon</option>
+        <option value="dark">Dark</option>
+        <option value="steel">Steel</option>
+        <option value="fairy">Fairy</option>
+      </select>
+      <select class="inputs_" name="" id="select">
+        <option value="" disabled selected hidden>sort</option>
+        <option value="default">Default</option>
+        <option value="az">A-Z</option>
+        <option value="za">Z-A</option>
+        <option value="low">From Weight</option>
+        <option value="high">To Weight</option>
+      </select>
+      <button id="search" class="search inputs_">search</button>
+    </div>
+
+    <main></main>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

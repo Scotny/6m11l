@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  outline: none;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #212529;
+  padding: 146px 50px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.inputs {
+  margin-top: 50px;
+  display: flex;
+  gap: 11px;
+}
+
+.from_to {
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+}
+
+.inputs_ {
+  width: 210px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+}
+
+.inputs input {
+  padding-left: 12px;
+  font-size: 15.88px;
+  font-weight: 400;
+  line-height: 18.6px;
+  color: #6c757d;
+}
+
+.all {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 15.63px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+}
+
+select {
+  font-size: 15.63px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+}
+
+.search {
+  background-color: #198754;
+  border-color: #198754;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 46px 0;
+  margin-bottom: 60px;
+  width: 250px;
+  height: 380px;
+  color: #212529;
+  border-radius: 10px;
+  background-color: #ffff00;
+  box-shadow: 0px -2px 6px 0px #0a254059 inset, 0px 30px 60px -30px #0000004d,
+    0px 50px 100px -20px #32325d40;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 9px 5px;
+  background-color: #c4e4ff;
+  border-radius: 20px;
+}
+
+.card_p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 21px;
+  color: #80007c;
+}
+
+.index {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff0000;
+  border-radius: 0 10px 0 0;
+  color: #ffffff;
+  padding: 9px 5px;
+  font-size: 15.5px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.spawn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00ffff;
+  border-radius: 0 0 0 10px;
+  padding: 9px 5px;
+  font-size: 15.75px;
+  font-weight: 800;
+  line-height: 24px;
+}
